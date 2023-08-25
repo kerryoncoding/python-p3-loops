@@ -12,5 +12,13 @@ def square_integers(int_list):
     return squared
 
 def fizzbuzz():
-    # code goes here!
-    pass
+    for i in range(100):
+        if (not (i+1)%15):
+            print("FizzBuzz")
+        elif (not (i+1)%3):
+            print("Fizz")
+        elif (not (i+1)%5): 
+            print("Buzz")
+        else: 
+            print(i+1)
+        
